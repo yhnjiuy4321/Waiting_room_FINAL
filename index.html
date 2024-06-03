@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sleeping Fox</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="marquee">
+        <p>This is just some text that  scrolling.</p>
+    </div>
+</header>
+
+<div class="big_box">
+    <div class="container">
+        <div class="hover-effect">
+        <p>Sorry, the little guy fell asleep again.</p>
+        </div>
+        <div class="hover-effect">
+        <p>Please come back later, or press</p>
+        </div>
+        <span onclick="reloadPage()">F5</span>
+        <div class="hover-effect">
+        <p>to try to wake it up.</p>
+        </div>
+    </div>
+    <div class="logo">
+        <!--<button>123</button>-->
+
+
+        <img src="fire_fox.png"  alt="Sleeping Firefox" class="float-image">
+    </div>
+
+    <label class="ui-switch" >
+        <input type="checkbox" id="darken-button">
+        <div class="slider" >
+            <div class="circle"></div>
+        </div>
+    </label>
+
+</div>
+
+<footer class="footer">
+        <p>There seems to be a problem with the network connection. Do you think it has something to do with the fox?</p>
+</footer>
+<div id="overlay"></div>
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
